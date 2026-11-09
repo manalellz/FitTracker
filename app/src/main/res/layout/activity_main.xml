@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:padding="20dp">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="FitTracker"
+        android:textSize="28sp"
+        android:textStyle="bold"
+        android:layout_marginBottom="25dp"/>
+
+    <TextView
+        android:id="@+id/txtActivity"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Activité : Course"
+        android:textSize="20sp"
+        android:layout_marginBottom="15dp"/>
+
+    <TextView
+        android:id="@+id/txtDuration"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Durée : 00:00"
+        android:textSize="22sp"
+        android:layout_marginBottom="15dp"/>
+
+    <TextView
+        android:id="@+id/txtDistance"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Distance : 0.00 km"
+        android:textSize="20sp"
+        android:layout_marginBottom="15dp"/>
+
+    <TextView
+        android:id="@+id/txtCalories"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Calories : 0 kcal"
+        android:textSize="20sp"
+        android:layout_marginBottom="25dp"/>
+
+    <Button
+        android:id="@+id/btnStart"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Démarrer l'entraînement"/>
+
+    <Button
+        android:id="@+id/btnStop"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Arrêter l'entraînement"
+        android:enabled="false"/>
+
+    <TextView
+        android:id="@+id/txtStatus"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="En attente..."
+        android:textSize="16sp"
+        android:layout_marginTop="20dp"/>
+
+</LinearLayout>
